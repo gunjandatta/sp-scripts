@@ -1,0 +1,16 @@
+@import "~office-ui-fabric-react/dist/sass/Fabric.Common";
+
+.tpLink {
+    float: left;
+    width: 500px;
+}
+
+.tpLink .tpLink-header {
+    @include ms-font-xl;
+    width: 100%;
+}
+
+.tpLink .tpLink-link {
+    display: block;
+    width: 100%;
+}

@@ -29,7 +29,7 @@ export class TestProjectDataSource {
                 // Execute the request
                 .execute((items:Types.IListItems) => {
                     // Resolve or reject the promise
-                    items.existsFl ? resolve(items) : reject(items);
+                    items.existsFl ? resolve(items.results) : reject(items);
                 });
         });
     }

@@ -15,6 +15,13 @@ export const TestProjectCfg = new Helper.SPConfig({
                 Name: "GD_TestProject",
                 ScriptSrc: "~site/siteassets/dev/testProject.js",
                 Title: "Test Project"
+            },
+            {
+                Description: "Adds a reference to the fabric ui styles.",
+                Location: "ScriptLink",
+                Name: "Office_Fabric-UI",
+                ScriptBlock: "document.head.innerHTML += \"<link rel='stylesheet' href='https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/4.1.0/css/fabric.min.css'>\";",
+                Title: "Office Fabric-UI"
             }
         ]
     },

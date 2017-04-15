@@ -35,8 +35,8 @@ class TestProjectMyView {
 
     // Method to render the footer
     private renderFooter = (ctx) => {
-        // Render the element
-        render(<MyView />, document.querySelector("#myCustomView"));
+        // Render the element, passing the view data to it
+        render(<MyView items={ctx.ListData.Row} />, document.querySelector("#myCustomView"));
 
         // Return nothing
         return "";
