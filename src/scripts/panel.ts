@@ -50,7 +50,7 @@ export const TestProjectCfg = new Helper.SPConfig({
             ViewInformation: [
                 // All Items
                 {
-                    ViewFields: ["Title", "TPCategory", "TPLink"],
+                    ViewFields: ["LinkTitle", "TPCategory", "TPLink"],
                     ViewName: "All Items",
                     ViewQuery: "<OrderBy><FieldRef Name='TPCategory' /><FieldRef Name='Title' /></OrderBy>"
                 },
