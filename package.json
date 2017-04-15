@@ -1,0 +1,40 @@
+{
+  "name": "sprest-scripts",
+  "version": "1.0.0",
+  "description": "Starter project for SharePoint 2013+ scripts using the Office Fabric-UI React framework.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunjandatta/sprest-scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunjandatta/sprest-scripts/issues"
+  },
+  "homepage": "https://github.com/gunjandatta/sprest-scripts#readme",
+  "dependencies": {
+    "gd-sprest": "^1.3.3",
+    "office-ui-fabric-react": "^2.17.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.0",
+    "es6-promise": "^4.1.0",
+    "node-sass": "^4.5.2",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "ts-loader": "^2.0.3",
+    "webpack": "^2.4.1"
+  }
+}
