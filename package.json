@@ -18,13 +18,13 @@
   },
   "homepage": "https://github.com/gunjandatta/sp-scripts#readme",
   "dependencies": {
-    "gd-sprest": "^1.3.5",
-    "office-ui-fabric-react": "^2.17.0",
+    "gd-sprest": "^1.3.6",
+    "office-ui-fabric-react": "^2.18.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
-    "@types/react": "^15.0.21",
+    "@types/react": "^15.0.22",
     "@types/react-dom": "^0.14.23",
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
