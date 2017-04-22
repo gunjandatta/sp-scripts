@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/gunjandatta/sp-scripts#readme",
   "dependencies": {
-    "gd-sprest": "^1.3.6",
-    "office-ui-fabric-react": "^2.18.0",
+    "gd-sprest": "^1.3.8",
+    "office-ui-fabric-react": "^2.21.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },

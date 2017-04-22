@@ -1,6 +1,7 @@
 import * as React from "react";
 import {render} from "react-dom";
 import {TestProjectPanel} from "./components/panel";
+import {TestProjectWebPart} from "./components/wp";
 import {TestProjectCfg} from "./scripts/panel";
 
 /**
@@ -22,8 +23,15 @@ class TestProject {
     constructor() {
         // Add a load event
         window.addEventListener("load", () => {
-            // Add body element
-            let el = this.addBodyElement();
+            // Get the webpart element
+            let el = document.querySelector("#wp_" + this._id);
+            if(el) {
+                // Render the webpart
+                render(<TestProjectWebPart />, el);
+            }
+
+            // Add body element for the panel
+            el = this.addBodyElement();
             if(el) {
                 // Render the panel
                 render(<TestProjectPanel id={this._id} />, el);
