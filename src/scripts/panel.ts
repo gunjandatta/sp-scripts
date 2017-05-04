@@ -34,11 +34,11 @@ export const TestProjectCfg = new Helper.SPConfig({
             CustomFields: [
                 {
                     Name: "TPCategory",
-                    SchemaXml: '<Field ID="" Name="TPCategory" StaticName="TPCategory" DisplayName="Link Category" Type="Choice"><CHOICES><CHOICE>Cat 1</CHOICE><CHOICE>Cat 2</CHOICE><CHOICE>Cat 3</CHOICE><CHOICE>Cat 4</CHOICE></CHOICES></Field>'
+                    SchemaXml: '<Field ID="{1D6F2ABA-F9B1-42D1-8D90-601720F42048}" Name="TPCategory" StaticName="TPCategory" DisplayName="Link Category" Type="Choice"><CHOICES><CHOICE>Cat 1</CHOICE><CHOICE>Cat 2</CHOICE><CHOICE>Cat 3</CHOICE><CHOICE>Cat 4</CHOICE></CHOICES></Field>'
                 },
                 {
                     Name: "TPLink",
-                    SchemaXml: '<Field ID="" Name="TPLink" StaticName="TPLink" DisplayName="Link URL" Type="URL" />'
+                    SchemaXml: '<Field ID="{228BE422-EE27-4277-ABB4-60172054203C}" Name="TPLink" StaticName="TPLink" DisplayName="Link URL" Type="URL" />'
                 }
             ],
             ListInformation: {
