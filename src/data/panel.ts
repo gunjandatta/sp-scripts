@@ -1,10 +1,10 @@
-import {List, Types} from "gd-sprest";
-import {Promise} from "es6-promise";
+import { List, Types } from "gd-sprest";
+import { Promise } from "es6-promise";
 
 /**
  * Test Project Item
  */
-export interface ITestProjectItem {
+export interface ITestProjectItem extends Types.IListItemQueryResult {
     Title: string,
     TPCategory: string,
     TPLink: Types.ComplexTypes.FieldUrlValue
@@ -27,9 +27,9 @@ export class TestProjectDataSource {
                     Select: ["Title", "TPCategory", "TPLink"]
                 })
                 // Execute the request
-                .execute((items:Types.IListItems) => {
+                .execute((items) => {
                     // Resolve or reject the promise
-                    items.existsFl ? resolve(items.results) : reject(items);
+                    items.results ? resolve(items.results) : reject(items);
                 });
         });
     }
